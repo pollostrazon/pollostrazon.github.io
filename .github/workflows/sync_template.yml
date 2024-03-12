@@ -8,6 +8,10 @@ on:
 jobs:
   repo-sync:
     runs-on: ubuntu-latest
+    permissions: # I don't think these are actually needed, but haven't tested without.
+      contents: write
+      pull-requests: write
+      actions: write
     steps:
       # To use this repository's private action, you must check out the repository
       - name: Checkout
