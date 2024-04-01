@@ -2,10 +2,10 @@
 layout: page
 title: projects
 permalink: /projects/
-description: a list of meaningful projects developed during the years.
+description: A growing collection of your cool projects.
 nav: true
 nav_order: 3
-display_categories: [electronics, software]
+display_categories: [work, fun]
 horizontal: false
 ---
 
