@@ -39,10 +39,11 @@
       "area": "Microelectronics for High Energy Physics",
       "studyType": "PhD",
       "startDate": "2020",
-      "endDate": "2023",
+      "endDate": "2024",
       "thesis": "Design of a pixel readout processor for nano-meter resolution x-ray ptychography",
       "advisor": "Massimo Manghisoni, Lodovico Ratti",
-      "keywords": "Radiation detection, front-end electronics, low noise, x-ray ptychography, ASIC design, PCB design, FPGA design"
+      "keywords": "Radiation detection, front-end electronics, low noise, x-ray ptychography, ASIC design, PCB design, FPGA design",
+      "grade": "Excellent"
     },
     {
       "institution": "Università degli Studi di Bergamo",
