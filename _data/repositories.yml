@@ -1,7 +1,12 @@
 github_users:
-  - pollostrazon
+  - torvalds
+  - alshedivat
 
 github_repos:
-  - pollostrazon/Gaussian-Mixture-Models
-  - pollostrazon/HGMD_updates
-  - pollostrazon/Q-learning-vs-Sarsa-control-analysis
+  - alshedivat/al-folio
+  - twbs/bootstrap
+  - jekyll/jekyll
+  - jquery/jquery
+  - FortAwesome/Font-Awesome
+  - jpswalsh/academicons
+  - mathjax/MathJax
