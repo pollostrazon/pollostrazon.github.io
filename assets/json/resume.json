@@ -27,9 +27,22 @@
       "institution": "Istituto Nazionale di Fisica Nuclare, Sezione di Pavia",
       "location": "Pavia, Italy",
       "url": "https://www.pv.infn.it/en/welcome-to-the-infn-section-of-pavia/",
-      "studyType": "Junior Technological Researcher",
-      "startDate": "2023",
+      "studyType": "Senior Technological Researcher - Level 2",
+      "startDate": "2024",
       "endDate": "now",
+      "title": "Integration and calibration of the Si(Li) tracker of the GAPS experiment",
+      "coordinator": "Massimo Manghisoni",
+      "keywords": "ASIC design, PCB design, FPGA design, data analysis, ASIC characterisation"
+    },
+    {
+      "institution": "Istituto Nazionale di Fisica Nuclare, Sezione di Pavia",
+      "location": "Pavia, Italy",
+      "url": "https://www.pv.infn.it/en/welcome-to-the-infn-section-of-pavia/",
+      "studyType": "Junior Technological Researcher - Level 1",
+      "startDate": "2023",
+      "endDate": "2024",
+      "title": "Characterization of integrated circuits and modules developed for hybrid pixel readout at the CMS Inner Tracker",
+      "coordinator": "Gianluca Traversi",
       "keywords": "ASIC design, PCB design, FPGA design, data analysis, ASIC characterisation"
     },
     {
