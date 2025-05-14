@@ -22,6 +22,6 @@ Hey! I am Paolo Lazzaroni, a former software developer, now electronic engineer 
 
 My passion is mostly concerning technologies helping scientific and human development, and my focus spans vertically from theoretical physics to engineering applications. The main fields I am interested in are nuclear, subnuclear and astroparticle physics, mathematics and electronics.
 
-My scientific activity and research interest fall mainly in the design of low-noise, low-power analogue front-end integrated circuit for semiconductor detectors readout in the frame of high energy physics, photon science and astroparticle physics, as well as their characterisation.
+My scientific activity and research interest fall mainly in the design of low-noise, low-power analogue front-end integrated circuit for semiconductor detectors readout in the frame of high energy physics, photon science and astroparticle physics, as well as their characterisation. I also like to fiddle with MMICs, especially for integrated radar sensing purposes, in application such as vital parameter monitoring and biomechanical tracking.
 
 I love playing and listening to music, travelling through the world, and reading a good book.

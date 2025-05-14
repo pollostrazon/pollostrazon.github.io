@@ -35,6 +35,17 @@
       "keywords": "ASIC design, PCB design, FPGA design, data analysis, ASIC characterisation"
     },
     {
+      "institution": "Columbia University",
+      "location": "New York, US",
+      "url": "https://www.physics.columbia.edu/",
+      "studyType": "Staff Associate II",
+      "startDate": "2023",
+      "endDate": "2024",
+      "title": "Construction and testing of the GFP, the GAPS Functional prototype, as part of the GAPS experiment",
+      "coordinator": "Chuck Hailey",
+      "keywords": "GAPS, Si(Li) tracker, front-end electronics, dark matter search"
+    },
+    {
       "institution": "Istituto Nazionale di Fisica Nuclare, Sezione di Pavia",
       "location": "Pavia, Italy",
       "url": "https://www.pv.infn.it/en/welcome-to-the-infn-section-of-pavia/",
@@ -145,13 +156,6 @@
     }
   ],
   "memberships": [
-    {
-      "name": "Staff associate II",
-      "description": "<a href=\"https://www.columbia.edu/\">Columbia University</a>, New York, US.",
-      "summary": "Construction and testing of the GFP, the GAPS Functional prototype, as part of the GAPS experiment.",
-      "startDate": "2023",
-      "endDate": "now"
-    },
     {
       "name": "INFN member",
       "description": "<a href=\"https://home.infn.it/it/\">Istituto Nazionale di Fisica Nucleare</a>, Pavia, Italy.",
