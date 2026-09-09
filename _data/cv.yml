@@ -3,17 +3,25 @@
 cv:
   name: Paolo Lazzaroni
   label: >-
-    Research fellow @ <a href='https://www.pv.infn.it/en/welcome-to-the-infn-section-of-pavia/'>INFN Pavia</a>.
-    External collaborator @ <a href='https://www.unibg.it/'>UniBG</a>.
+    Research Fellow @ <a href='https://www.unibg.it/'>Università degli Studi di Bergamo</a>.
   email: paolo.lazzaroni(at)unibg.it
 
   sections:
     Experience:
+      - company: Università degli Studi di Bergamo
+        position: Research Fellow (type A)
+        location: Bergamo, Italy
+        url: https://www.unibg.it/
+        start_date: "2025"
+        summary: Department of Engineering and Applied Sciences, Scientific-Disciplinary Sector ING-INF/01 - Electronics
+        highlights:
+          - "Keywords: Analog integrated circuits, Front-end electronics, ASIC design, FPGA design, ASIC characterisation"
       - company: Istituto Nazionale di Fisica Nucleare, Sezione di Pavia
         position: Senior Technological Researcher - Level 2
         location: Pavia, Italy
         url: https://www.pv.infn.it/en/welcome-to-the-infn-section-of-pavia/
         start_date: "2024"
+        end_date: "2025"
         summary: Integration and calibration of the Si(Li) tracker of the GAPS experiment
         highlights:
           - "Supervisor: Massimo Manghisoni"
@@ -98,35 +106,41 @@ cv:
         summary: Certificate awarded to the paper "FALCON readout channel for x-ray ptychography applications" as one of the top 30% paper of the PRIME 2022 conference.
 
     Memberships:
-      - bullet: "**INFN member** — [Istituto Nazionale di Fisica Nucleare](https://home.infn.it/it/), Pavia, Italy. Member of INFN CSN5 group as Technological Ph.D., section of Pavia. (2023 - present)"
-      - bullet: "**SIE member** — [Società Italiana di Elettronica](https://www.associazione-sie.it/), Bergamo, Italy. Member of SIE, section of Bergamo. (2023 - present)"
-      - bullet: "**IEEE Graduate Student Member** — [Institute of Electrical and Electronics Engineers](https://www.ieee.org/), Italy. Graduate student membership. (2023 - present)"
+      - bullet: "**INFN** — [Istituto Nazionale di Fisica Nucleare](https://home.infn.it/it/), Pavia, Italy. INFN CSN5 group member as Technological Ph.D., section of Pavia. (2020 - today)"
+      - bullet: "**IEEE** — [Institute of Electrical and Electronics Engineers](https://www.ieee.org/), Italy. IEEE member, section of Italy. (2020 - today)"
+      - bullet: "**IEEE NPSS** — [Institute of Electrical and Electronics Engineers](https://www.ieee.org/), Italy. Nuclear & Plasma Sciences Society member, section of Italy. (2020 - today)"
+      - bullet: "**SIE** — [Società Italiana di Elettronica](https://www.associazione-sie.it/), Bergamo, Italy. SIE member, section of Bergamo. (2020 - today)"
 
     Projects:
+      - name: AlpRay
+        start_date: "2025"
+        summary: Design of a high-dynamic-range pixel to be used in a hybrid pixel detector in 110 nm CMOS technology.
+        highlights:
+          - "Collaboration: DECTRIS, [UniPV](https://web.unipv.it/), and [UniBG](https://www.unibg.it/)"
       - name: CMS
         start_date: "2023"
         summary: Characterization of integrated circuits and modules developed for hybrid pixel readout at the CMS inner tracker.
         highlights:
           - "Collaboration: [CMS](https://cms.cern/) at [CERN](https://home.cern/)"
           - "Keywords: CMS, ASIC characterisation"
-      - name: FALCON
-        start_date: "2023"
-        summary: Design of a pixel readout processor for nano-meter resolution x-ray ptychography.
-        highlights:
-          - "Collaboration: [ANL](https://www.anl.gov/), [UniPV](https://web.unipv.it/), and [UniBG](https://www.unibg.it/)"
-          - "Keywords: Radiation detection, front-end electronics, low noise, x-ray ptychography, ASIC design, PCB design, FPGA design"
-      - name: GAPS
-        start_date: "2023"
-        summary: Testing and verification of the performance of the Si(Li) tracker of the experiment.
-        highlights:
-          - "Collaboration: [GAPS](https://gaps1.astro.ucla.edu/gaps/)"
-          - "Keywords: GAPS, Front-end electronics, ASIC design, data analysis, software engineering"
       - name: DSSC
-        start_date: "2023"
+        start_date: "2021"
         summary: Testing and verification of the performance of the DEPFET sensors and ASICs.
         highlights:
           - "Collaboration: [EuXFEL](https://www.xfel.eu/), [DESY](https://www.desy.de/), and [INFN](https://home.infn.it/it/) (Milano and Pavia)"
           - "Keywords: DSSC, XFEL, ASIC characterisation, sensor characterisation"
+      - name: GAPS
+        start_date: "2020"
+        summary: Characterisation of the Si(Li) tracker of the experiment and design of the second-flight prototype in 65 nm CMOS technology.
+        highlights:
+          - "Collaboration: [GAPS](https://gaps1.astro.ucla.edu/gaps/)"
+          - "Keywords: GAPS, Front-end electronics, ASIC design, data analysis, software engineering"
+      - name: FALCON
+        start_date: "2020"
+        summary: Design of a pixel readout processor for nano-meter resolution x-ray ptychography in 65 nm CMOS technology.
+        highlights:
+          - "Collaboration: [ANL](https://www.anl.gov/), [UniPV](https://web.unipv.it/), and [UniBG](https://www.unibg.it/)"
+          - "Keywords: Radiation detection, front-end electronics, low noise, x-ray ptychography, ASIC design, PCB design, FPGA design"
 
     Languages:
       - name: Italian
@@ -144,3 +158,9 @@ cv:
       - name: Japanese
         summary: Beginner (A2)
         icon: fi fi-jp
+      - name: Spanish
+        summary: Beginner (A2)
+        icon: fi fi-es
+      - name: German
+        summary: Beginner (A1)
+        icon: fi fi-de
