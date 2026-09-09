@@ -1,97 +1,146 @@
-# - title: General Information
-#   type: map
-#   contents:
-#     - name: Full Name
-#       value: Albert Einstein
-#     - name: Date of Birth
-#       value: 14th March 1879
-#     - name: Languages
-#       value: English, German
+# CV data in RenderCV (https://rendercv.com/) YAML format.
+# See docs/CUSTOMIZE.md > "Modifying the CV information" for the full schema.
+cv:
+  name: Paolo Lazzaroni
+  label: >-
+    Research fellow @ <a href='https://www.pv.infn.it/en/welcome-to-the-infn-section-of-pavia/'>INFN Pavia</a>.
+    External collaborator @ <a href='https://www.unibg.it/'>UniBG</a>.
+  email: paolo.lazzaroni(at)unibg.it
 
-# - title: Education
-#   type: time_table
-#   contents:
-#     - title: PhD
-#       institution: University of Zurich, Zurich, Switzerland
-#       year: 1905
-#       description:
-#         - Description 1.
-#         - Description 2.
-#         - title: Description 3.
-#           contents:
-#             - Sub-description 1.
-#             - Sub-description 2.
-#     - title: Federal teaching diploma
-#       institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-#       year: 1900
-#       description:
-#         - Description 1.
-#         - Description 2.
+  sections:
+    Experience:
+      - company: Istituto Nazionale di Fisica Nucleare, Sezione di Pavia
+        position: Senior Technological Researcher - Level 2
+        location: Pavia, Italy
+        url: https://www.pv.infn.it/en/welcome-to-the-infn-section-of-pavia/
+        start_date: "2024"
+        summary: Integration and calibration of the Si(Li) tracker of the GAPS experiment
+        highlights:
+          - "Supervisor: Massimo Manghisoni"
+          - "Keywords: ASIC design, PCB design, FPGA design, data analysis, ASIC characterisation"
+      - company: Columbia University
+        position: Staff Associate II
+        location: New York, US
+        url: https://www.physics.columbia.edu/
+        start_date: "2023"
+        end_date: "2024"
+        summary: Construction and testing of the GFP, the GAPS Functional prototype, as part of the GAPS experiment
+        highlights:
+          - "Supervisor: Chuck Hailey"
+          - "Keywords: GAPS, Si(Li) tracker, front-end electronics, dark matter search"
+      - company: Istituto Nazionale di Fisica Nucleare, Sezione di Pavia
+        position: Junior Technological Researcher - Level 1
+        location: Pavia, Italy
+        url: https://www.pv.infn.it/en/welcome-to-the-infn-section-of-pavia/
+        start_date: "2023"
+        end_date: "2024"
+        summary: Characterization of integrated circuits and modules developed for hybrid pixel readout at the CMS Inner Tracker
+        highlights:
+          - "Supervisor: Gianluca Traversi"
+          - "Keywords: ASIC design, PCB design, FPGA design, data analysis, ASIC characterisation"
 
-# - title: Experience
-#   type: time_table
-#   contents:
-#     - title: Professor of Theoretical Physics
-#       institution: Institute for Advanced Study, Princeton University
-#       year: 1933 - 1955
-#       description:
-#         - Description 1.
-#         - Description 2.
-#         - title: Description 3.
-#           contents:
-#             - Sub-description 1.
-#             - Sub-description 2.
-#     - title: Visiting Professor
-#       institution: California Institute of Technology, Pasadena, California, US
-#       year: 1933
-#       description:
-#         - Description 1.
-#         - Description 2.
+    Education:
+      - institution: Università degli Studi di Bergamo
+        location: Bergamo, Italy
+        url: https://www.unibg.it/
+        area: Microelectronics for High Energy Physics
+        degree: PhD
+        start_date: "2020"
+        end_date: "2024"
+        highlights:
+          - "Thesis: Design of a pixel readout processor for nano-meter resolution x-ray ptychography"
+          - "Advisor: Massimo Manghisoni, Lodovico Ratti"
+          - "Keywords: Radiation detection, front-end electronics, low noise, x-ray ptychography, ASIC design, PCB design, FPGA design"
+          - "Grade: Excellent"
+      - institution: Università degli Studi di Bergamo
+        location: Bergamo, Italy
+        url: https://www.unibg.it/
+        area: Computer Engineering (Mechatronics) LM-32
+        degree: Master
+        start_date: "2018"
+        end_date: "2020"
+        highlights:
+          - "Thesis: Characterization of a Modular System for the Realisation of the Si(Li) Tracker of GAPS experiment"
+          - "Advisor: Massimo Manghisoni, Elisa Riceputi, Mauro Sonzogni"
+          - "Keywords: GAPS, Front-end electronics, ASIC design, data analysis"
+          - "Grade: 110/110 cum laude"
+      - institution: Università degli Studi di Bergamo
+        location: Bergamo, Italy
+        url: https://www.unibg.it/
+        area: Computer Engineering LM-8
+        degree: Bachelor
+        start_date: "2015"
+        end_date: "2018"
+        highlights:
+          - "Thesis: Analysis of Reinforcement Learning Algorithms for Control in OpenAI Gym Simulated Environment"
+          - "Advisor: Fabio Previdi, Mirko Mazzoleni"
+          - "Keywords: Machine learning, reinforcement learning, control, OpenAI Gym"
+          - "Grade: 107/110"
+      - institution: Istituto di Istruzione Superiore "Lorenzo Lotto"
+        location: Trescore B., Italy
+        area: Accounting & IT for Enterprise
+        degree: Technical
+        start_date: "2010"
+        end_date: "2015"
+        highlights:
+          - "Grade: 100/100"
 
-#     - title: Director
-#       institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-#       year: 1917-1933
+    Awards:
+      - title: Bosch SensorTec "Making SensorTec!" challenge winner
+        date: "2023"
+        awarder: Bosch SensorTec
+        url: https://www.bosch-press.it/pressportal/it/it/press-release-63680.html
+        summary: First prize awarded to the University of Bergamo uLab team for the development of an intelligent IoT infrastructure for boiler monitoring, alert managing and data analysis. The team was invited to present the work both at Bosch SensorTec (BST) in Milan, Italy, and at the BST headquarters in Reutlingen, Germany.
+      - title: PRIME 2022 Bronze Leaf Certificate
+        date: "2022"
+        awarder: PRIME 2022
+        url: http://prime-conference.org/
+        summary: Certificate awarded to the paper "FALCON readout channel for x-ray ptychography applications" as one of the top 30% paper of the PRIME 2022 conference.
 
-#     - title: Professor of Theoretical Physics
-#       institution: Karl-Ferdinand University, Prague, Czechoslovakia
-#       year: 1911 - 1917
-#       description:
+    Memberships:
+      - bullet: "**INFN member** — [Istituto Nazionale di Fisica Nucleare](https://home.infn.it/it/), Pavia, Italy. Member of INFN CSN5 group as Technological Ph.D., section of Pavia. (2023 - present)"
+      - bullet: "**SIE member** — [Società Italiana di Elettronica](https://www.associazione-sie.it/), Bergamo, Italy. Member of SIE, section of Bergamo. (2023 - present)"
+      - bullet: "**IEEE Graduate Student Member** — [Institute of Electrical and Electronics Engineers](https://www.ieee.org/), Italy. Graduate student membership. (2023 - present)"
 
-#     - title: Associate Professor of Theoretical Physics
-#       institution: University of Zurich, Zurich, Switzerland
-#       year: 1909 - 1911
+    Projects:
+      - name: CMS
+        start_date: "2023"
+        summary: Characterization of integrated circuits and modules developed for hybrid pixel readout at the CMS inner tracker.
+        highlights:
+          - "Collaboration: [CMS](https://cms.cern/) at [CERN](https://home.cern/)"
+          - "Keywords: CMS, ASIC characterisation"
+      - name: FALCON
+        start_date: "2023"
+        summary: Design of a pixel readout processor for nano-meter resolution x-ray ptychography.
+        highlights:
+          - "Collaboration: [ANL](https://www.anl.gov/), [UniPV](https://web.unipv.it/), and [UniBG](https://www.unibg.it/)"
+          - "Keywords: Radiation detection, front-end electronics, low noise, x-ray ptychography, ASIC design, PCB design, FPGA design"
+      - name: GAPS
+        start_date: "2023"
+        summary: Testing and verification of the performance of the Si(Li) tracker of the experiment.
+        highlights:
+          - "Collaboration: [GAPS](https://gaps1.astro.ucla.edu/gaps/)"
+          - "Keywords: GAPS, Front-end electronics, ASIC design, data analysis, software engineering"
+      - name: DSSC
+        start_date: "2023"
+        summary: Testing and verification of the performance of the DEPFET sensors and ASICs.
+        highlights:
+          - "Collaboration: [EuXFEL](https://www.xfel.eu/), [DESY](https://www.desy.de/), and [INFN](https://home.infn.it/it/) (Milano and Pavia)"
+          - "Keywords: DSSC, XFEL, ASIC characterisation, sensor characterisation"
 
-# - title: Open Source Projects
-#   type: time_table
-#   contents:
-#     - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-#       year: 2015-now
-#       description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-# - title: Honors and Awards
-#   type: time_table
-#   contents:
-#     - year: 1921
-#       items:
-#         - Nobel Prize in Physics
-#         - Matteucci Medal
-#     - year: 2029
-#       items:
-#         - Max Planck Medal
-
-# - title: Academic Interests
-#   type: nested_list
-#   contents:
-#     - title: Topic 1.
-#       items:
-#         - Description 1.
-#         - Description 2.
-#     - title: Topic 2.
-#       items:
-#         - Description 1.
-#         - Description 2.
-
-# - title: Other Interests
-#   type: list
-#   contents:
-#     - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    Languages:
+      - name: Italian
+        summary: Mother tongue
+        icon: fi fi-it
+      - name: English
+        summary: Fluent (C1)
+        icon: fi fi-gb
+      - name: French
+        summary: Intermediate (B2)
+        icon: fi fi-fr
+      - name: Russian
+        summary: Intermediate (B2)
+        icon: fi fi-ru
+      - name: Japanese
+        summary: Beginner (A2)
+        icon: fi fi-jp
