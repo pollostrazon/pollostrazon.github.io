@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: research fellow @ <a href='https://www.pv.infn.it/en/welcome-to-the-infn-section-of-pavia/'>INFN Pavia</a>. external collaborator @ <a href='https://www.unibg.it/'>UniBG</a>.
+subtitle: research fellow @ <a href='https://www.unibg.it/'>UniBG</a>. external collaborator @ <a href='https://www.pv.infn.it/en/welcome-to-the-infn-section-of-pavia/'>INFN Pavia</a>.
 
 profile:
   align: right
