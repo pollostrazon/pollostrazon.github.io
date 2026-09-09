@@ -1,14 +1,10 @@
 name: Render a CV
 on:
-  push:
-    branches:
-      - main
-      - master
-    paths:
-      - "_data/cv.yml"
-      - "assets/rendercv/design.yaml"
-      - "assets/rendercv/locale.yaml"
-      - "assets/rendercv/settings.yaml"
+  # Auto-trigger on push is disabled: this site's CV data isn't shaped to
+  # satisfy rendercv's strict schema (see docs/CUSTOMIZE.md), and the
+  # download button on /cv/ intentionally points at a manually-maintained
+  # assets/pdf/cv.pdf instead. Run manually via workflow_dispatch if this
+  # is ever revisited.
   workflow_call:
   workflow_dispatch:
 permissions:
