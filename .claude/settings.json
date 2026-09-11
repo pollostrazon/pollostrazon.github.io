@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 -c ' *)",
+      "Bash(curl -sL \"https://api.github.com/repos/pollostrazon/pollostrazon.github.io/actions/jobs/102521375628/logs\" -o /tmp/rendercv_log.txt)",
+      "Bash(git commit -q -m ' *)"
+    ]
+  }
+}
